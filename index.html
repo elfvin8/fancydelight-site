@@ -124,6 +124,35 @@
     padding: 15px 40px; /* slightly bigger button */
     font-size: 1.1rem;
   }
+
+  .order-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .order-buttons .button {
+    padding: 15px 28px;
+    font-size: 1.05rem;
+  }
+
+  a.order {
+    background: #f2994a; /* Orange */
+  }
+
+  a.order:hover {
+    background: #e67e22;
+  }
+
+  a.cny {
+    background: #d32f2f; /* Red */
+  }
+
+  a.cny:hover {
+    background: #b71c1c;
+  }
     
   </style>
 </head>
@@ -134,8 +163,8 @@
   <h1>We’ve Moved!</h1>
 
   <div class="announcement">
-    <p>We’ve officially shifted from our online store to <span class="highlight">WhatsApp</span>!</p>
-    <p>To order or enquire, just message us directly.</p>
+    <p>We’ve moved from our online store to <span class="highlight">WhatsApp & Online Order Forms</span>!</p>
+    <p>You can place your orders via WhatsApp or submit our order forms anytime.</p>
   </div>
 
   <div class="buttons">
@@ -144,9 +173,14 @@
     <a class="button email" href="mailto:contact@fancydelight.com.sg">Email Us</a>
   </div>
 
-  <!-- CNY button on its own line -->
-  <div class="cny-button">
-    <a class="button cny" href="https://forms.gle/5vrznTbWcPfcjT6Z8" target="_blank">CNY Cookies Order Form</a>
+  <!-- Order Forms Row -->
+  <div class="order-buttons">
+    <a class="button order" href="https://forms.gle/ypfd1HFMty71MzEbA" target="_blank">
+      Order Form
+    </a>
+    <a class="button cny" href="https://forms.gle/5vrznTbWcPfcjT6Z8" target="_blank">
+      CNY Cookies Order Form
+    </a>
   </div>
 
   <footer>
