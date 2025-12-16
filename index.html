@@ -176,7 +176,7 @@
   <!-- Order Forms Row -->
   <div class="order-buttons">
     <a class="button order" href="https://forms.gle/ypfd1HFMty71MzEbA" target="_blank">
-      Order Form
+      Egg Tarts Order Form
     </a>
     <a class="button cny" href="https://forms.gle/5vrznTbWcPfcjT6Z8" target="_blank">
       CNY Cookies Order Form
@@ -184,7 +184,11 @@
   </div>
 
   <footer>
-    &copy; 2025 Fancy Delight. All rights reserved.
+    &copy; <span id="year"></span> Fancy Delight. All rights reserved.
   </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
